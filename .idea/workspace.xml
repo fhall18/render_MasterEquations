@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3b5efcb-f947-40ad-87e7-1c429e74c1a4" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/render.yaml" afterDir="false" />
+    <list default="true" id="c3b5efcb-f947-40ad-87e7-1c429e74c1a4" name="Changes" comment="added yaml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +23,25 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="fhall18 &lt;frederickchall@gmail.com&gt;" />
         <option value="changes" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "fhall18"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f4fea147-12fb-40ca-9d23-ab108a9d73e4" />
+        <option name="url" value="https://github.com/fhall18/render_MasterEquations.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
@@ -82,19 +97,36 @@
       <option name="project" value="LOCAL" />
       <updated>1708457083294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added yaml">
+      <option name="closed" value="true" />
+      <created>1708458875406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708458875406</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added yaml">
+      <option name="closed" value="true" />
+      <created>1708458986304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708458986304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="added yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added yaml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/app.py</url>
-          <line>64</line>
+          <line>66</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

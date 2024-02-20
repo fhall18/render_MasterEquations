@@ -8,10 +8,12 @@ from model import ThermalState
 ######################################################################################################
 ### APP
 
-app = Dash(__name__,
-        meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1.0"}])
-app.css.append_css({'external_url': 'reset.css'})
+# app = Dash(__name__,
+#         meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1.0"}])
+# app.css.append_css({'external_url': 'reset.css'})
 
+app = Dash(__name__)
+server = app.server
 
 # App layout
 app.layout = html.Div([
@@ -114,5 +116,5 @@ def update_chart(Ta,Tset,Tstart):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8071)
-    # app.run_server(debug=True)
+    # app.run_server(debug=True, port=8071)
+    app.run_server(debug=True)
