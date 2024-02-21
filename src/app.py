@@ -9,10 +9,6 @@ from model import ThermalState
 ######################################################################################################
 ### APP
 
-# app = Dash(__name__,
-#         meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1.0"}])
-# app.css.append_css({'external_url': 'reset.css'})
-
 app = Dash(__name__)
 server = app.server
 
@@ -64,8 +60,6 @@ app.layout = html.Div([
 
 @app.callback(
 Output('main-chart', 'figure'),
-    # Output('state-chart', 'figure'),
-    # Output('dist-chart', 'figure'),
     [Input('Ta-slider', 'value'),
      Input('Tset-slider', 'value'),
      Input('Tstart-slider', 'value')]
@@ -76,7 +70,7 @@ def update_chart(Ta,Tset,Tstart):
     x_path = state.runIt()
 
     # CONVERT TO TERRIBLE DASH PLOTTER...
-    x1 = [0, 1, 2, 3]
+    x1 = [0, 1, 2, 3] # placeholder state x-values
     s_list = sns.color_palette("magma_r", 6)
     d_list = sns.color_palette("magma_r", 7)
 
